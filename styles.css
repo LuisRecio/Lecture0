@@ -24,7 +24,7 @@ h2{
   color: blue;
 }
 
-.photo{
+#photo{
   @media (min-width:500px){
     body{
       <img  src="photos/Me.png" width="30%">
