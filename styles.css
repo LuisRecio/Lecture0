@@ -23,3 +23,16 @@ h2{
   font-weight: bold;
   color: blue;
 }
+
+.photo{
+  @media (min-width:500px){
+    body{
+      <img  src="photos/Me.png" width="30%">
+        }
+          }
+  @media (max-width:499px) {
+    body{
+      <img  src="photos/Best.png" width="30%">
+    }
+  }
+      }
