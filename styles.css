@@ -27,11 +27,13 @@ h2{
 
   @media (max-width:499px) {
     h3::before{
+      text-align: center;
       content: "This is me!";
     }
 }
     @media (min-width:500px) {
       h3::before{
+        text-align: center;
         content: "This is me again!";
       }
     }
