@@ -35,16 +35,16 @@ h3{
 
 
 
-@media all (max-width:992px) {
+@media all and (min-width:500px) {
       h3::before{
         color: blue;
         content: "This is me again!";
       }
     }
 
-@media all (max-width:600px){
-      h3::before{
-        color: red;
-        content: "Wow ive changed! Hey!";
-      }
-}
+@media all and (max-width:499px) {
+          h3::before{
+            color: red;
+            content: "Hey!";
+          }
+        }
