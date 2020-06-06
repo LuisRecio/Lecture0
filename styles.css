@@ -35,15 +35,15 @@ h3{
 
 
 
-@media screen (min-width:500px) {
+@media (min-width:500px) {
       h3::before{
         color: blue;
         content: "This is me again!";
       }
     }
 
-@media screen (max-width:499px) {
-        h3::before{
+@media (max-width:501px) {
+        h3::after{
           color: red;
           content: "This is me!";
         }
