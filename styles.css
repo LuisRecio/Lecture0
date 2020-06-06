@@ -41,10 +41,10 @@ h3{
         content: "This is me again!";
       }
     }
-
-@media (max-width:501px) {
-        h3::after{
-          color: red;
-          content: "This is me!";
-        }
-    }
+    
+@media (max-width:499px){
+      h3::before{
+        color: red;
+        content: "Wow ive changed! Hey!";
+      }
+}
