@@ -12,6 +12,9 @@ h4{
   color: Blue;
 }
 
+h3{
+}
+
 
 #top{
   font-size: 25px;
@@ -34,12 +37,14 @@ h4{
 
 @media (min-width:500px) {
       h3::before{
+        color: blue;
         content: "This is me again!";
       }
     }
 
 @media (max-width:499px) {
         h3::before{
+          color: red;
           content: "This is me!";
         }
     }
