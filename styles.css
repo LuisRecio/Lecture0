@@ -24,15 +24,14 @@ h2{
   color: blue;
 }
 
-#photo{
-  @media (min-width:500px){
-    body{
-      <img  src="photos/Me.png" width="30%">
-        }
-          }
+
   @media (max-width:499px) {
-    body{
-      <img  src="photos/Best.png" width="30%">
+    h3::before{
+      content: "This is me!";
     }
-  }
+
+    @media (min-width:500px) {
+      h3::before{
+        content: "This is me again!";
       }
+    }
