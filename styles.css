@@ -33,7 +33,17 @@ h3{
   color: blue;
 }
 
+.container{
 
+}
+
+.row{
+
+}
+
+.col{
+
+}
 @media all and (min-width:500px) {
       h3::before{
         color: blue;
